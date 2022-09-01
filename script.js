@@ -18,5 +18,25 @@ class Calculator{
      this.currentOperand = '';
      this.operation = undefined;
     }
+
+    delete(){
+
+    }
+
+    appendNumber(number){
+
+    }
+    
+    chooseOperation(operation){
+
+    }
+
+    compute(){
+
+    }
+
+    updateDisplay(){
+
+    }
  }
  
