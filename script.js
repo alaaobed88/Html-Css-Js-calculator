@@ -40,3 +40,4 @@ class Calculator{
     }
  }
  
+ const Calculator = new Calculator(previousOperand, currentOperand);
