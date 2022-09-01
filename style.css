@@ -57,12 +57,12 @@ button:hover{
     word-break: break-all;
 }
  
-.upper-display{
+.previous-operand{
 font-size:1.2rem;
 color: rgba(255, 255, 255, 0.75);
 }
 
-.lower-display{
+.current-operand{
     font-size:1.8rem;
     color: aliceblue;
     font-weight:600;
