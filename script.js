@@ -7,3 +7,16 @@ const operationButton = document.querySelectorAll('[data-operation');
 const previousOperand = document.querySelector('[data-previous-operand');
 const currentOperand = document.querySelector('[data-current-operand]');
 
+class Calculator{
+    constructor(previousOperand, currentOperand){
+     this.previousOperand = previousOperand;
+     this.currentOperand = currentOperand;
+    }
+ 
+    clearall(){
+     this.previousOperand = '';
+     this.currentOperand = '';
+     this.operation = undefined;
+    }
+ }
+ 
